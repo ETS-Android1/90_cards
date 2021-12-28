@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title" : "Foreign Languages",
+      "text" : "You have to speak a foreign language for 5 minutes. Everytime you say something in your own language, you drink 2 sips.",
+      "time" : 300
+    },
+    {
+      "title" : "X Factor",
+      "text" : "The person who drew the card has to perform as a singer (alone or in group). If the performance is good enough, everyone sips twice, otherwise the singer drinks a shot.",
+      "time" : 0
+    },
+    {
+      "title" : "Cascade",
+      "text" : "Everybody starts drinking. As soon as the person on your left stops drinking, you can stop as well (or keep drinking). The game starts from the person who drew the card!",
+      "time" : 0
+    },
+    {
+      "title" : "Cascade",
+      "text" : "Everybody starts drinking. As soon as the person on your left stops drinking, you can stop as well (or keep drinking). The game starts from the person who drew the card!",
+      "time" : 0
+    },
+    {
+      "title" : "Happy Hour!",
+      "text" : "If you drink a shot, you can decide 4 more players that will drink a shot with you. This is on the house!",
+      "time" : 0
+    },
+    {
+      "title" : "Whisper challenge",
+      "text" : "Choose a partner. While your partner is listening to loud music, whisper to him a sentence at your choice. If by 1 minute your partner guesses, you can distribute 4 sips, otherwise you and your partner drink 2 sips each.",
+      "time" : 0
+    }
+  ]
+}

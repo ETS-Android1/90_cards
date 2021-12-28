@@ -192,7 +192,17 @@
     },
     {
       "title" : "Nomi, cose, città",
-      "text" : "ensa ad una lettera dell'alfabeto. Munitevi di carta e penna. In 1 minuto, ognuno dovrà trovare una riposta che inizi con quella lettera per le categorie che seguono. Chi non ne trova beve 2 sorsi, chi condivide la risposta con altre persone, beve 1 sorso. \nCategorie:\n1. Nomi\n2. Oggetti trovati in classe\n3. Nazioni europee\n4. Marche famose\n5. Animali",
+      "text" : "Pensa ad una lettera dell'alfabeto. Munitevi di carta e penna. In 1 minuto, ognuno dovrà trovare una riposta che inizi con quella lettera per le categorie che seguono. Chi non ne trova beve 2 sorsi, chi condivide la risposta con altre persone, beve 1 sorso. \nCategorie:\n1. Nomi\n2. Oggetti trovati in classe\n3. Nazioni europee\n4. Marche famose\n5. Animali",
+      "time" : 0
+    },
+    {
+      "title" : "Obbligo o verità",
+      "text" : "Puoi scaglaire un \"Obbligo o verità\" ad un altro concorrente. Tutti, tranne la/o sfidata/o, bevono un sorso.",
+      "time" : 0
+    },
+    {
+      "title" : "Obbligo o verità",
+      "text" : "Puoi scaglaire un \"Obbligo o verità\" ad un altro concorrente. Tutti, tranne la/o sfidata/o, bevono un sorso.",
       "time" : 0
     }
   ]

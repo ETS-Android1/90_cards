@@ -9,7 +9,6 @@ public class Card {
 
     private String text;
     private String title;
-    private CardType cardType = CardType.NormalCard;
     public static int count = 0;
 
     private Timer timer = null;
@@ -73,9 +72,5 @@ public class Card {
     public void setTextView(TextView timer_title_textView, TextView timer_time_textView) {
         this.timer_title_textView = timer_title_textView;
         this.timer_time_textView = timer_time_textView;
-    }
-
-    public CardType getCardType() {
-        return cardType;
     }
 }
