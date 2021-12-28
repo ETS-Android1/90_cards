@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="screenTapped"
+    tools:context=".Ninety_cards">
+
+    <TextView
+        android:id="@+id/card_question"
+        android:layout_width="293dp"
+        android:layout_height="351dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/question_text_borders"
+        android:gravity="left"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:verticalScrollbarPosition="right"
+        app:layout_constraintBottom_toTopOf="@+id/card_icon_Image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/small_title" />
+
+    <ImageView
+        android:id="@+id/card_icon_Image"
+        android:layout_width="122dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/card_icon" />
+
+    <TextView
+        android:id="@+id/card_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="332dp"
+        android:layout_height="287dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/small_title"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timer_time_left"
+        android:layout_width="64dp"
+        android:layout_height="30dp"
+        android:background="@color/white_background"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/timer_title_left"
+        android:layout_width="141.5dp"
+        android:layout_height="30dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/timer_time_left" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.49878347" />
+
+    <TextView
+        android:id="@+id/timer_time_right"
+        android:layout_width="64dp"
+        android:layout_height="30dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3" />
+
+    <TextView
+        android:id="@+id/timer_title_right"
+        android:layout_width="141.5dp"
+        android:layout_height="30dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/timer_time_right" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
